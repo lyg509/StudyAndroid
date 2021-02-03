@@ -28,4 +28,12 @@
 #  
 -  액티비티의 생명주기와 콜백 메서드
 ![텍스트](https://lh3.googleusercontent.com/proxy/NUOajggAeY-4_czWpK_OU4suwRW9zdm3nVHF1ty2iWYJQtB-p5a6iOBJaal3i9b-XlhNXKrwoOL42AYnkHWIVEL0Wq38HVEGL0vLuavddw12iCbEt_vuuyVs3D-z-3q82_8ti-0Djhm4k30Jv3LAqHiO3ZOt48MXQLIGC-MVODKNGMbjKmS1RmsfuOOf_YjSLpTDCe69ES5EWfl8gKtFDDdnVPsgrQbTg_uAO-Fje6A)
+#  
+#  
+## 3.SaveState
+-  Bundle 클래스의 주요 메서드
+#  
+![텍스트](https://img1.daumcdn.net/thumb/R720x0.q80/?scode=mtistory2&fname=http%3A%2F%2Fcfile24.uf.tistory.com%2Fimage%2F112A81204BA35B5039BB6F)
+
+
 
