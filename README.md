@@ -2,6 +2,10 @@
 ##  1.LogTest
 -  Log클래스의 주요  
 #
+#  
+#  
+#  
+#  
 
 
 
@@ -15,8 +19,10 @@
 |i(String tag, String msg)|info 메시지|
 |d(String tag, String msg)|debug 메시지|
 |v(String tag, String msg)|verbose 메시지|
-  
-  
+#    
+#  
+#  
+#  
   
 ##  2. ActivityCycle
 -  액비티비 상태
