@@ -31,31 +31,25 @@
 #  
 #  
 ## 3.SaveState
--  Bundle 클래스의 주요 메서드
+-  Android에서 Bundle 이란
 #  
-Android에서 Bundle란?
 Bundle 객체가 상태 정보를 저장한다.
-
-따라서 Bundle icicle에 상태정보들이 저장되고, Application을 실핼때에 혹은 종료했다가 다시 불러올 때 이 Bundle icicle의 상태정보를 불러오게 됩니다.
-
- 
-
-Bundle에서 saveInstanceState
-"saveInstanceState"란, 이전에 셧다운 된 후에 액티비티가 다시 초기화하는 경우, 번들은 "onSaveInstanceState(Bundle)" 메스드에 의해 가장 최근에 공급된 데이터(인스턴스)를 포함합니다.
-
- 
+따라서 Bundle icicle에 상태정보들이 저장되고, Application을 실핼때에 혹은 종료했다가 다시 불러올 때 이 Bundle icicle의 상태정보를 불러오게 된다.
+#  
+Bundle에서 saveInstanceState 란, 이전에 셧다운 된 후에 액티비티가 다시 초기화하는 경우, 번들은 "onSaveInstanceState(Bundle)" 메스드에 의해 가장 최근에 공급된 데이터(인스턴스)를 포함합니다.
+#   
 Intent를 생성하고 그를 통해 액티비티간에 객체를 전달하고 전달받음.
 이때 자료형이 정해져있으면 bundle을 통해 넘기고 받고 할수 있지만, 그외 자료형의 경우 Parcel이나 Parcelable를 통해 넘기고 받아야함.
- 
-
+#  
+#  
 Bundle Class
  아래 참고 url의 레퍼런스의 설명에 보면 string 값으로 다양하게 묶을 수 있는 값들을 매핑하여 가지고 있다. Parcelable과 Cloneable 인터페이스를 implement하고 있다. 이전의 액티비티에서 새로운 액티비티로 전환되었을때 이전 액티비티의 상태에 대한 정보를 Bundle이 가지고 있다고 한다.
 안드로이드는 Bundle를 통해 액티비티간의 데이터 전송 중 int, byte 같은 java의 primitive 자료형을 가지는 객체들을 별도의 작업없이 전송을 할수 있다.
-
+# 
 액티비티 전환간에 보면 아래와 같은 코드를 볼수 있다.
-
+# 
 Bundle b = getIntent().getExtras();
-
+# 
 참고 : http://developer.android.com/reference/android/os/Bundle.html
 
 
