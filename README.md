@@ -44,11 +44,6 @@ Bundle에서 saveInstanceState
 "saveInstanceState"란, 이전에 셧다운 된 후에 액티비티가 다시 초기화하는 경우, 번들은 "onSaveInstanceState(Bundle)" 메스드에 의해 가장 최근에 공급된 데이터(인스턴스)를 포함합니다.
 
  
-
- 
-
-참고 ) http://www.welog.co.kr/gbbs/bbs/board.php?bo_table=st_android&wr_id=12
-
 Intent를 생성하고 그를 통해 액티비티간에 객체를 전달하고 전달받음.
 이때 자료형이 정해져있으면 bundle을 통해 넘기고 받고 할수 있지만, 그외 자료형의 경우 Parcel이나 Parcelable를 통해 넘기고 받아야함.
  
@@ -61,9 +56,8 @@ Bundle Class
 
 Bundle b = getIntent().getExtras();
 
-참고 : 
-[참고 :](http://developer.android.com/reference/android/os/Bundle.html).
-[출처] Bundle 란?|작성자 미니187
+참고 : http://developer.android.com/reference/android/os/Bundle.html
+
 
 
 
