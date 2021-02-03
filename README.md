@@ -3,7 +3,11 @@
 -Log클래스의 주요 
 
 
+
+
+
 |메서드 이름|기능|
+|------|---|
 |wtf(String tag, String msg)|asser 메시지|
 |e(String tag, String msg)|error 메시지|
 |w(String tag, String msg)|warn 메시지|
