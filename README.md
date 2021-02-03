@@ -23,3 +23,9 @@
 #  
 
 -  콜백 메서드 다른 함수에 인수로 전달되는 함수이며, 일종의 이벤트 후에 실행될 것으로 예상된다. 콜백 메서드의 목적은 다른 클래스에서 일부 작업이 완료된 경우 클래스 Sync/Async에 알리는 것이다.
+
+#  
+#  
+-  액티비티의 생명주기와 콜백 메서드
+![텍스트](https://lh3.googleusercontent.com/proxy/NUOajggAeY-4_czWpK_OU4suwRW9zdm3nVHF1ty2iWYJQtB-p5a6iOBJaal3i9b-XlhNXKrwoOL42AYnkHWIVEL0Wq38HVEGL0vLuavddw12iCbEt_vuuyVs3D-z-3q82_8ti-0Djhm4k30Jv3LAqHiO3ZOt48MXQLIGC-MVODKNGMbjKmS1RmsfuOOf_YjSLpTDCe69ES5EWfl8gKtFDDdnVPsgrQbTg_uAO-Fje6A)
+
