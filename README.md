@@ -1,6 +1,7 @@
 # StudyAndroid
 ##  1.LogTest
 -  Log클래스의 주요  
+#  
 |메서드 이름|기능|
 |------|---|
 |wtf(String tag, String msg)|asser 메시지|
@@ -13,6 +14,7 @@
 #  
 ##  2. ActivityCycle
 -  액비티비 상태
+#  
 |상태|설명|
 |------|---|
 |실행 재개( resumed)|액티비티가 화면 맨 앞에 있으며 사용자와 상호작용하고 있다.|
