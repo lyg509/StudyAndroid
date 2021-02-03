@@ -3,9 +3,7 @@
 -  Log클래스의 주요  
 #
 #  
-#  
-#  
-#  
+
 
 
 
@@ -21,8 +19,7 @@
 |v(String tag, String msg)|verbose 메시지|
 #    
 #  
-#  
-#  
+ 
   
 ##  2. ActivityCycle
 -  액비티비 상태
