@@ -27,7 +27,7 @@
 #  
 #  
 -  액티비티의 생명주기와 콜백 메서드
-![텍스트](C:\Users\lyg\Desktop\안드로이드 스터디)
+![텍스트](C:/Users/lyg/Desktop/안드로이드 스터디/lifeCycle.png)
 #  
 #  
 ## 3.SaveState
