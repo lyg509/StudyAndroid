@@ -27,7 +27,7 @@
 #  
 #  
 -  액티비티의 생명주기와 콜백 메서드
-![텍스트](https://lh3.googleusercontent.com/proxy/NUOajggAeY-4_czWpK_OU4suwRW9zdm3nVHF1ty2iWYJQtB-p5a6iOBJaal3i9b-XlhNXKrwoOL42AYnkHWIVEL0Wq38HVEGL0vLuavddw12iCbEt_vuuyVs3D-z-3q82_8ti-0Djhm4k30Jv3LAqHiO3ZOt48MXQLIGC-MVODKNGMbjKmS1RmsfuOOf_YjSLpTDCe69ES5EWfl8gKtFDDdnVPsgrQbTg_uAO-Fje6A)
+![텍스트](C:\Users\lyg\Desktop\안드로이드 스터디)
 #  
 #  
 ## 3.SaveState
@@ -55,6 +55,15 @@ Bundle b = getIntent().getExtras();
 -  인텐트란  
 #  
 일종의 메시지 객체 무엇을 하려고 하는지 목적을 가지는 객체이며주로 새로운 액티비티를 시작하는 용도로 사용 (전화번호를 터치하면 전화가 걸리거나, 주소를 터치하면 지도가 열리는 등의 암시적인 동작 등)
+#  
+-1)액티비티 시작하기
+-2)서비스 시작하기
+-3)브로드캐스트 전달하기
+
+- 명시적 인텐트와 암시적 인테트
+## 명시적 인텐트
+#  
+- 명시적인텐트는 구성요소(액티비티, 서비스, 브로드캐스트 등)를 명시적으로 지정하는 하는 것 ex)뉴스 기사 제목이 표시되는 액티비티에서 제목을 터치하면 뉴스의 내용을 보요주는 액티비티를 호출 하는 것. 이때 명시적으로 내가 터치한 제목의 내용을 표시할 특정 액티비티를 지정해서 시작하는 것
 
 
 
