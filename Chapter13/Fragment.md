@@ -91,6 +91,19 @@ FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 #  
 프래그먼트 매니저는 액티비티처럼 백스택을 가지고 있고, 여기에 프래그먼트를 추가하려면 addToBackStack()을 수행해야 한다. 
 
+#  
+[프래그먼트의 백스택 예]
+#  
+```java
+Fragment newFragment = new ExampleFragment()
+FragmentTransaction transation = getFragmentManager().behinTransaction();
+//fragemnt_container영역의 프래그먼트를 newFragment로 교체
+//그리고 백스택에 트랜잭션을 추가
+transaction.replace(R.id.fragment_container, new  Fragment);
+//트랜잭션 적용
+transaction.commit();
+```
+
 
 
 
