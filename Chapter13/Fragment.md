@@ -19,8 +19,9 @@
 #  
 #  프래그먼트를 사용하기 위한 화면 설계
 -[xml에 프래그먼트 추가 예]
-<pre>
-<code>
+
+마크다운	실행결과
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -43,10 +44,7 @@
         android:layout_weight="2"/>
         
 </LinearLayout>
-</code>
-</pre>
-
-
+```
 
 
 
