@@ -44,6 +44,25 @@
         
 </LinearLayout>
 ```
+#
+자바 코드로 추가
+-프래그먼트를 추가하려면 프래그먼트를 배치할 뷰그룹이 하나 필요(위 XML에서 아이디에 fragment, container를 가지는 LinearLayout)
+#  
+, 프로그래먼트 추가,제거,교체를 동적으로 수행하려면 FragmentManager 객체가 필요하다. 또한, 이 객체를 얻으려면
+#  
+getFragmentManager()나 getSuppoetFragmentManager()메서를 사용해야한다.
+#  
+프래그먼트의 추가,제거,교체는 한 번에 여러 가지를 동시에 수행할 수 있고, 이때 한 번에 수행하는 작업의 집합을 트랜잭션이라고 한다.
+트랜잭션의 끝에 commit()메서드를 호출하면 작업 내용들이 적용된다.
+#  
+-[Fragment의 동적 추가 예]
+```java
+FragmentManager fragmentManager = getSupportFragmentmanager();
+FragmentTransaction fragmentTransaction = fragmentManager.begubTrabsaction();
 
+ExampleFragment fragment = new ExampleFragment();
+fragmentTransaction.add(R.id.gragment_container, fragement);
+fragmentTransaction.commit();
+```
 
 
