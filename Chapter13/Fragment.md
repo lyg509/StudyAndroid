@@ -58,7 +58,7 @@ getFragmentManager()나 getSuppoetFragmentManager()메서를 사용해야한다.
 -[Fragment의 동적 추가 예]
 ```java
 FragmentManager fragmentManager = getSupportFragmentmanager();
-FragmentTransaction fragmentTransaction = fragmentManager.beginTrabsaction();
+FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
 ExampleFragment fragment = new ExampleFragment();
 fragmentTransaction.add(R.id.gragment_container, fragement);
@@ -84,7 +84,7 @@ FragmentManager의 역할
 -[Fragment의 동적 추가 예]
 ```java
 FragmentManager fragmentManager = getSupportFragmentmanager();
-FragmentTransaction fragmentTransaction = fragmentManager.beginTrabsaction();
+FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 ```
 #  
 -각 트랜잭션에는 add(). remove(), replace()와 같은 메서드를 사용하고 commit()을 수행하면 적용된다. 
