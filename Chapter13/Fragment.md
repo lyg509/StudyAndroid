@@ -1,5 +1,4 @@
-# 1.프래그먼트 소개
-#  
+#  1.프래그먼트 소개
 ![텍스트](/./img/프래그먼트소개.jpg)
 #  
 태블릿 같은 큰 화면에서 유연한 UI를 구현하기 위해 등장
@@ -8,14 +7,29 @@
 #  
 #  2.프래그먼트와 액티비티의 차이점
 #  
--프래그먼트 
-#  
 -부모 자식관계를 가질 수 있다. (프래그먼트 안에 다른 프래그먼트를 포함할 수 있다.
 -여러 화면에서 재사용할 수 있다.
 -정리: 프래그먼트는 생명주기를 가지면서 여러 뷰를 가지고 조작하기 쉽다.
 #  프래그먼트의 생명주기
 #  
 ![텍스트](/./img/프래그먼트생명주기.jpg)
+#  
+#  프래그먼트의 레이아웃 생성
+-onCreateView() 메서드에서 LayoutInflater로 레이아웃을 가져온다.
+#  
+#  프래그먼트를 사용하기 위한 화면 설계
+-[xml에 프래그먼트 추가 예]
+<pre>
+<code>
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+
+}
+</code>
+</pre>
+
 
 
 
