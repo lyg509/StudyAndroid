@@ -82,11 +82,11 @@ View들을 수평(horizontal)또는 수직(vertical)로만 배치할 수 있다.
 #  문자열 리소스 추가
 # 
 string.xml 에 정의 
-'''xml
+```xml
 <resources>
   <string name="app_name">MyApp</string>
 </resources>
-'''
+```
   
 
 
