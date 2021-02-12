@@ -43,7 +43,29 @@
 #  java코드에서 해당 id를 참조하여 변수에 할당할 수 있다.
 #  
 #  
+#  패딩과 마진
+#  ![텍스트](/./img/paddingAndMargine.png)
+#
+#  dp
 #  
+dp 단위는 서로 다른 해상도나 밀도를 가진 기기 간에도 동일한 크기로 보이게 하는 단위이다.
+#  
+#  LinearLayout 
+#  가장 많이 사용하는 레이아웃
+#  View들을 수평(horizontal)또는 수직(vertical)로만 배치할 수 있다.
+#  
+#  EditText
+#  문자열을 입력할 수 있는 뷰
+#  
+#  문자열 리소스 추가
+# string.xml 에 정의 
+'''xml
+<resources>
+  <string name="app_name">MyApp</string>
+</resources>
+  
+
+
 
 
 
