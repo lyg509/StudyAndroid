@@ -111,6 +111,7 @@ EditText editText = (EditText) findViewById(R.id.edit_message);
 String message = editText.getText().toString();
 intent.putExtra(EXTRA_MESSAGE, message);
 startActivity(intent);
+```
 #  
 #  
 Intent: 무엇을 하겠다는 의도를 담는 객체
