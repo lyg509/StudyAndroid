@@ -119,6 +119,23 @@ Intent: 무엇을 하겠다는 의도를 담는 객체
 간단한 데이터를 putExtra()를 통해 담을 수 있다.
 #  
 인텐트를 작성후 startActivity를 호출하면 다른 액티비티를 화면에 표시할 수 있다.
+#  
+#  java코드로 레이아웃을 동적으로 변경 하는 예
+```java
+Intent intent = getIntent();
+String message = intent.getStringExtra(MainActivity.EXTRA_MESSAGE);
+TextView textView = new TextView(this);
+textView.setTextSize(40);
+textView.setText(message);
+
+ViewGroup layout = (ViewGroup) findViewById(R.id.activity_display_message);
+layout.addView(textView);
+
+```
+
+
+
+
 
 
 
