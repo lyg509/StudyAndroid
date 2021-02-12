@@ -87,7 +87,39 @@ string.xml 에 정의
   <string name="app_name">MyApp</string>
 </resources>
 ```
-  
+#  
+#  EditText를 남는 영역이 없도록 채우기
+#  
+```xml
+android:layout_weight="1"
+android:layout_width="0dp"
+```
+#  
+#  버튼 클릭
+```xml
+android:onClick="sendMessage"
+```
+```java
+public void sendMessage(View view){
+}
+```
+#  
+##  인텐트 작성
+```java
+Intent intent = new Intent(this, DisplayMessageActivity.class);
+EditText editText = (EditText) findViewById(R.id.edit_message);
+String message = editText.getText().toString();
+intent.putExtra(EXTRA_MESSAGE, message);
+startActivity(intent);
+#  
+#  
+Intent: 무엇을 하겠다는 의도를 담는 객체
+#  
+간단한 데이터를 putExtra()를 통해 담을 수 있다.
+#  
+인텐트를 작성후 startActivity를 호출하면 다른 액티비티를 화면에 표시할 수 있다.
+
+
 
 
 
