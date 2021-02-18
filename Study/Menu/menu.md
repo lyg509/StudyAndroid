@@ -25,8 +25,7 @@
 #  
 ##  07 AlertDialog는 메시지 표시하기, 목록표시하기, 단인 선택 목록 표시하기, 다중 선택 목록 표시하기 등의 기능을 제공한다.
 #  
-##  08 날짜 대화상자는 DataPickerDialog 클래스로, 시간 대화상자는 TimePickerDialog 클래스로 기능이 제공된다. 사용자가 날짜나 시간을 선택하면 OnDataSetListener 또는 OnTimeSetListener 객체의 
-메서드가 호출된다.
+##  08 날짜 대화상자는 DataPickerDialog 클래스로, 시간 대화상자는 TimePickerDialog 클래스로 기능이 제공된다. 사용자가 날짜나 시간을 선택하면 OnDataSetListener 또는 OnTimeSetListener 객체의 메서드가 호출된다.
 #  
 ## 09 커스텀 대화상자의 화면은 XML로 대화상자 레이아웃을 정의하고 AlertDialog.Builder 객체에 대해 setView() 메서드를 호출하여 구성.
 
